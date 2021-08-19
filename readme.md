@@ -40,4 +40,4 @@ npm install ejs --save
 npm start
 ```
 
-[![CI](https://github.com/Dariwka/musician-app/actions/workflows/main.yml/badge.svg)](https://github.com/Dariwka/musician-app/actions/workflows/main.yml)
+[![CI](https://github.com/Dariwka/testApp/actions/workflows/main.yml/badge.svg)](https://github.com/Dariwka/testApp/actions/workflows/main.yml)
