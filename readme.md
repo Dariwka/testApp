@@ -39,3 +39,5 @@ npm install ejs --save
 ```shell
 npm start
 ```
+
+[![CI](https://github.com/Dariwka/musician-app/actions/workflows/main.yml/badge.svg)](https://github.com/Dariwka/musician-app/actions/workflows/main.yml)
