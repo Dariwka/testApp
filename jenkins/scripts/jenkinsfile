@@ -1,0 +1,21 @@
+pipeline {
+    CI = 'true'
+    agent any
+    tools {
+        nodejs "node"
+    }
+    stages {
+        
+        stage ('Build') {
+            steps {
+                git 'https://github.com/Dariwka/testApp.git'
+                sh 'npm install'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing our test app'
+            }
+        }
+    }
+}
